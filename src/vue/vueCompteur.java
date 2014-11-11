@@ -74,7 +74,6 @@ public class vueCompteur extends JPanel{
 				if(!(vueCompteur.this.c.compteurIncremente())){
 					JOptionPane.showMessageDialog(null, "Le compteur a atteint la borne superieur !", "Attention", JOptionPane.INFORMATION_MESSAGE);
 				}
-				System.out.println(vueCompteur.this.c.toString());
 				borneInf.setText(Integer.toString(c.getBorneInf()));
 				borneSup.setText(Integer.toString(c.getBorneSup()));
 				valCompteur.setText(Integer.toString(c.getNombre()));
